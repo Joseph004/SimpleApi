@@ -28,8 +28,7 @@ namespace SimpleApi.Controllers
             else
             {
                 return "true";
-            }
-            
+            }       
         }
 
         // POST api/values
@@ -48,6 +47,7 @@ namespace SimpleApi.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+
         }
     }
 }
