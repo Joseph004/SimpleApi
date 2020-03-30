@@ -14,7 +14,6 @@ namespace SimpleApi.test
             var returnValue = controller.Get(1);
             Assert.Equal("Arobas Luhandu", returnValue.Value);
         }
-
         [Fact]
         public void Test1()
         {
